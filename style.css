@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.promosi {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.promosi h2 {
+    margin-bottom: 20px;
+}
+
+.promosi button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.testimoni {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.testimoni-list {
+    margin-top: 10px;
+}
+
+.layanan {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.layanan-item {
+    margin-bottom: 20px;
+}
+
+.perhatian {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .sosial a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
