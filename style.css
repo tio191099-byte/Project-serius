@@ -29,6 +29,13 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* Style Logo */
+.logo img {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: auto;
+    vertical-align: middle; /* Agar logo sejajar dengan teks */
+}
+
 .promosi {
     background-color: #fff;
     padding: 20px;
@@ -39,12 +46,15 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-.promosi button {
+/* Style Tombol "Pesan Sekarang" */
+.pesan-sekarang {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    text-decoration: none; /* Hilangkan garis bawah link */
+    display: inline-block; /* Agar bisa diatur margin dan padding */
 }
 
 .testimoni {
